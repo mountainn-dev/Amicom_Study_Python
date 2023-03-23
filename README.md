@@ -6,7 +6,7 @@
 
 
 ## 1주차 배운 내용
-- Github Setting
+- Github Setting 강연우
 
 ## 2주차 배운 내용
 - 이곳에 작성하시면 됩니다.
