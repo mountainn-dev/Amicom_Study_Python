@@ -46,6 +46,16 @@ if name == users['name']:
     print(users)
     else
     print('일치하는 사용자 정보가 없습니다.')
+    
+users = {}
+userData = input("사용자 정보를 입력해주세요(이름 나이 학년): ")
+tmpData = userData.split(" ")
+users[tmpData[0]] = [tmpData[1], tmpData[2]]
+
+name = input("조회하고자 하는 사용자 이름을 입력해주세요: ")
+print("\n이름: " + name + " 나이: " + users[name][0] + " 학년: " + users[name][1])
+    
+    
 ```    
     
 
