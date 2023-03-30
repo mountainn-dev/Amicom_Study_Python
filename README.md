@@ -20,7 +20,29 @@ print('안녕하세요 제 이름은 {name}  이고 제 나이는 {age} 입니�
 ```
 
 ## 2주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+```Python
+words=['bird','rat','eagle','cat']
+print(words)
+oldword = input('rat')
+newword = input('dog')
+oldwordIndex = words.index(oldword)
+words[oldwordIndex] = newword
+print(words)
+
+
+
+
+
+userData= input('홍길동,19,3')
+userData = userData.split()
+users={'name': userDataList[0], 'age': int(userDatalList[1]), 'grade': int(userDataList[2])}
+name=input(홍길동)
+if name == users['name']:
+    print(users)
+    else
+    print('일치하는 사용자 정보가 없습니다.')
+```    
+    
 
 ## 3주차 배운 내용
 - 이곳에 작성하시면 됩니다.
