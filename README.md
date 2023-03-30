@@ -7,9 +7,9 @@
 
 ## 1주차 배운 내용
 ```Python
-import random
-n= random.randrange(1,30)
-print(f"{n}개")
+from random import random
+number = (int)(random() * 29) + 1
+print("%d" %number)
 
 print('  A\n BC\nDEF')
 
@@ -17,6 +17,11 @@ age= random. randint(10,30)
 name='kelvin'
 name= name.capitalize()
 print('안녕하세요 제 이름은 {name}  이고 제 나이는 {age} 입니다')
+
+from random import random
+age = (int)(random() * 20) + 10
+name = "kelvin"
+print("안녕하세요 제 이름은 %c%s입니다. 제 나이는 %d 살 입니다."%(name[0].upper(), name[1:], age))
 ```
 
 ## 2주차 배운 내용
