@@ -9,7 +9,15 @@
 - Github Setting, 스터디 진행 방향 및 계획
 
 ## 2주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- 파이썬 리스트와 반복문
+    리스트 선언, 연산자, 리스트에 요소 추가하기(append, insert, extend), 리스트에 요소 제거하기(del, pop(), remove, clear)
+
+    (1)
+    number = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+
+    for number in numbers:
+        if number >= 100:
+            print("100 이상의 수: ", number)
 
 ## 3주차 배운 내용
 - 이곳에 작성하시면 됩니다.
