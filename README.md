@@ -9,15 +9,58 @@
 - Github Setting, 스터디 진행 방향 및 계획
 
 ## 2주차 배운 내용
-- 파이썬 리스트와 반복문
+- 2023.03.30.THU
+    <파이썬 리스트와 반복문>
     리스트 선언, 연산자, 리스트에 요소 추가하기(append, insert, extend), 리스트에 요소 제거하기(del, pop(), remove, clear)
 
+
     (1)
-    number = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+    numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
 
     for number in numbers:
         if number >= 100:
             print("100 이상의 수: ", number)
+
+
+    (2)
+    numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+
+    for number in numbers:
+        if number % 2 == 1:
+            print(number, "는 홀수입니다.")
+        else:
+            print(number, "는 짝수입니다.")
+    
+
+    (3)
+    numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+
+    for number in numbers:
+        print(number, "는", len(str(number)), "자릿수입니다.")
+    
+
+    (4)
+    list_of_list = [
+        [1, 2, 3],
+        [4, 5, 6, 7],
+        [8, 9],
+    ]
+
+    for line in list_of_list:
+        for item in line:
+            print(item)
+    
+
+    (5)
+    numberes = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    output = [[], [], []]
+
+    for number in numbers:
+        output[(number + 2)% 3].append(number)
+    
+    print(output)
+
+
 
 ## 3주차 배운 내용
 - 이곳에 작성하시면 됩니다.
