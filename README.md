@@ -51,6 +51,22 @@ users[tmpData[0]] = [tmpData[1], tmpData[2]]
 name = input("조회하고자 하는 사용자 이름을 입력해주세요: ")
 print("\n이름: " + name + " 나이: " + users[name][0] + " 학년: " + users[name][1])
   
+
+
+
+    
+```    
+    
+
+## 3주차 배운 내용
+- 이곳에 작성하시면 됩니다.
+```Python
+today= int(input('오늘의 날짜를 입력하세요:'))
+if today % 4==0: 
+   print('오늘은 장날입니다.')
+else:
+    print('오늘은 장날이 아닙니다.')
+
 users = []
 for i in range(3):
     user = {}
@@ -72,26 +88,11 @@ while i < 3:
 
 print(users)
 
-
-
-    
-```    
-    
-
-## 3주차 배운 내용
-- 이곳에 작성하시면 됩니다.
-```Python
-today= int(input('오늘의 날짜를 입력하세요:'))
-if today % 4==0: 
-   print('오늘은 장날입니다.')
-else:
-    print('오늘은 장날이 아닙니다.')
-    
 ## 4주차 배운 내용
 - 이곳에 작성하시면 됩니다.
 
 ## 5주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- 이곳에 작성하시면 됩니다
 
 ## 6주차 배운 내용
 - 이곳에 작성하시면 됩니다.
