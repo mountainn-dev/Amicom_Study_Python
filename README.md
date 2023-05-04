@@ -59,7 +59,7 @@
         output[(number + 2)% 3].append(number)
     
     print(output)
-
+1
 
 
 ## 3주차 배운 내용
@@ -69,10 +69,29 @@
 - 이곳에 작성하시면 됩니다.
 
 ## 5주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- * 팀원 중간고사 미완료로 활동하지 못했음 *
 
 ## 6주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- 2023.05.04 Thu
+
+    (1) 딕셔너리
+        dict = {
+            "A": 65,
+            "a": 97
+        }
+        print(dict["A"])    // Result: 65
+
+        if "B" in dict:
+            print(dict["B"])
+        else:
+            print("없는 키입니다.")
+        
+        * if dict.get("B") == None: *
+
+        # dict의 값 : {}
+        # dict의 결과 : {"name":"구름"}
+        # dict에 적용할 코드: dict["name"] = "구름"
+        
 
 ## 7주차 배운 내용
 - 이곳에 작성하시면 됩니다.
