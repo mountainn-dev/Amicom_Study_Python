@@ -94,8 +94,24 @@
         
 
 ## 7주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- 2023.05.11 Thu
 
+    (1) 포인터
+        int a = 5;
+        int* ptr;
+        ptr = &a;
+        // ptr : a의 주소 저장
+        printf("%d", a); // 5
+        printf("%d", &a); // a 주소
+        printf("%d", ptr); // a 주소
+        printf("%d", *ptr); // 5
+        printf("%d", &ptr); // ptr 주소
+        
+        char str[] = {"HELLO"};
+        printf("%s", str); // str[0] 주소
+        printf("%s", *(str + 1)); // E
+
+        
 ## 8주차 배운 내용
 - 이곳에 작성하시면 됩니다.
 
