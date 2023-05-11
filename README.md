@@ -6,10 +6,61 @@
 
 
 ## 1주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- Github Setting, 스터디 진행 방향 및 계획
 
 ## 2주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- 2023.03.30.THU
+    <파이썬 리스트와 반복문>
+    리스트 선언, 연산자, 리스트에 요소 추가하기(append, insert, extend), 리스트에 요소 제거하기(del, pop(), remove, clear)
+
+
+    (1)
+    numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+
+    for number in numbers:
+        if number >= 100:
+            print("100 이상의 수: ", number)
+
+
+    (2)
+    numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+
+    for number in numbers:
+        if number % 2 == 1:
+            print(number, "는 홀수입니다.")
+        else:
+            print(number, "는 짝수입니다.")
+    
+
+    (3)
+    numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+
+    for number in numbers:
+        print(number, "는", len(str(number)), "자릿수입니다.")
+    
+
+    (4)
+    list_of_list = [
+        [1, 2, 3],
+        [4, 5, 6, 7],
+        [8, 9],
+    ]
+
+    for line in list_of_list:
+        for item in line:
+            print(item)
+    
+
+    (5)
+    numberes = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    output = [[], [], []]
+
+    for number in numbers:
+        output[(number + 2)% 3].append(number)
+    
+    print(output)
+1
+
 
 ## 3주차 배운 내용
 - 이곳에 작성하시면 됩니다.
@@ -18,14 +69,49 @@
 - 이곳에 작성하시면 됩니다.
 
 ## 5주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- * 팀원 중간고사 미완료로 활동하지 못했음 *
 
 ## 6주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- 2023.05.04 Thu
+
+    (1) 딕셔너리
+        dict = {
+            "A": 65,
+            "a": 97
+        }
+        print(dict["A"])    // Result: 65
+
+        if "B" in dict:
+            print(dict["B"])
+        else:
+            print("없는 키입니다.")
+        
+        * if dict.get("B") == None: *
+
+        # dict의 값 : {}
+        # dict의 결과 : {"name":"구름"}
+        # dict에 적용할 코드: dict["name"] = "구름"
+        
 
 ## 7주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+- 2023.05.11 Thu
 
+    (1) 포인터
+        int a = 5;
+        int* ptr;
+        ptr = &a;
+        // ptr : a의 주소 저장
+        printf("%d", a); // 5
+        printf("%d", &a); // a 주소
+        printf("%d", ptr); // a 주소
+        printf("%d", *ptr); // 5
+        printf("%d", &ptr); // ptr 주소
+        
+        char str[] = {"HELLO"};
+        printf("%s", str); // str[0] 주소
+        printf("%s", *(str + 1)); // E
+
+        
 ## 8주차 배운 내용
 - 이곳에 작성하시면 됩니다.
 
