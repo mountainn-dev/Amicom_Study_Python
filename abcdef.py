@@ -1,0 +1,1 @@
+print("A\nBC\nDEF")
